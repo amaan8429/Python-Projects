@@ -5,8 +5,6 @@ import asyncio
 
 import os
 from email.message import EmailMessage
-import ssl
-import smtplib
 
 email_sender = "mynewsletters8429@gmail.com"
 password = os.getenv("PASSWORD")
